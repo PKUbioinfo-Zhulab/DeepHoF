@@ -123,8 +123,8 @@ The installation of the virtual machine is much easier. Please refer to [Manual.
 
 The output of VHP consists of six columns:
 
-Header | plant_s | germ_s | invertebrate_s | vertebrate_s | human_s | plant_p |
------- | ------- | ------ | -------------- | ------------ | ------- | ------- |
+Header | plant_s | germ_s | invertebrate_s | vertebrate_s | human_s | plant_p | germ_p | invertebrate_p | vertebrate_p | human_p |
+------ | ------- | ------ | -------------- | ------------ | ------- | ------- | ------ | -------------- | ------------ | ------- |
 
 The content in `Header` column is the same with the header of corresponding sequence in the input file. With the input of viral nucleotide sequence, VHP will output five scores for each host type, reflecting the infectivity within each host type respectively. Furthermore, VHP provides five p-values, statistical measures of how distinct the infections are compared with non-infection events.
 
