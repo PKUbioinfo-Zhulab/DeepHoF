@@ -15,7 +15,7 @@
 VHP is designed to prediction the potential host types (plant, germ, invertebrate, vertebrate, human) of a given virus, which is represented by its nucleotide sequences. The tool will provide five scores and the corresponding p-values which reflect the propobilities of the virus infecting each host type. In addition, the score pattern and the p-value pattern reflect the infectivity pattern of the given virus. The program is also available at http://cqb.pku.edu.cn/ZhuLab/VHP/.
 
 ## Version
-+ VHP 1.1 (Tested on Ubuntu 16.04)
++ VHP 1.0 (Tested on Ubuntu 16.04)
 
 ## Requirements
 ### To run the physical host version of VHP, you need to install:
@@ -55,13 +55,13 @@ VHP is designed to prediction the potential host types (plant, germ, invertebrat
   
   Clone VHP package
   
-    git clone https://github.com/zhenchengfang/VHP.git
+    git clone https://github.com/qianguopku/VHP.git
     
   Change directory to VHP:
   
     cd VHP
     
-  The executable file and all scripts are under the folder
+  All scripts are under the folder
   
 
 ## Usage
@@ -84,10 +84,10 @@ VHP is designed to prediction the potential host types (plant, germ, invertebrat
   
 ### Output
 
-The output of VHP consists of six columns:
+The output of VHP consists of 11 columns:
 
-Header | plant_s | germ_s | invertebrate_s | vertebrate_s | human_s | plant_p | germ_p | invertebrate_p | vertebrate_p | human_p |
------- | ------- | ------ | -------------- | ------------ | ------- | ------- | ------ | -------------- | ------------ | ------- |
+Header | plant_score | germ_score | invertebrate_score | vertebrate_score | human_score | plant_pvalue | germ_pvalue | invertebrate_pvalue | vertebrate_pvalue | human_pvalue |
+------ | ----------- | ---------- | ------------------ | ---------------- | ----------- | ------------ | ----------- | ------------------- | ----------------- | ------------ |
 
 The content in `Header` column is the same with the header of corresponding sequence in the input file. With the input of viral nucleotide sequence, VHP will output five scores for each host type, reflecting the infectivity within each host type respectively. Furthermore, VHP provides five p-values, statistical measures of how distinct the infections are compared with non-infection events.
 
