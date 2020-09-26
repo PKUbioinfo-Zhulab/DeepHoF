@@ -74,11 +74,11 @@ VHP is designed to prediction the potential host types (plant, germ, invertebrat
 
   Please execute the following command directly in MATLAB command window:
   
-    VHP('<input_file_folder>/input_file.fna','<output_file_folder>/output_file.csv')
+    VHP('<input_file_folder>/input_file.fna','<output_file_folder>/output_file.tsv')
     
   For example, if you want to identify the sequences in "example.fna", please execute:
   
-    VHP('example.fna','result.csv')
+    VHP('example.fna','result.tsv')
     
   Please remember to set the working path of MATLAB to VHP folder before running the programe.
   
