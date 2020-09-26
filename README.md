@@ -19,12 +19,12 @@ VHP is designed to prediction the potential host types (plant, germ, invertebrat
 
 ## Requirements
 ### To run the physical host version of VHP, you need to install:
-+ [Python 3.6.7](https://www.python.org/)
++ [Python 3.6.10](https://www.python.org/)
 + [numpy 1.17.5](http://www.numpy.org/)
 + [h5py 2.10.0](http://www.h5py.org/)
 + [pandas 0.25.3](https://pandas.pydata.org/)
-+ [TensorFlow 2.0.0](https://www.tensorflow.org/)
-+ [Keras 2.3.1](https://keras.io/)
++ [TensorFlow 1.4.0](https://www.tensorflow.org/)
++ [Keras 2.1.3](https://keras.io/)
 + [MATLAB Component Runtime (MCR) R2018a](https://www.mathworks.com/products/compiler/matlab-runtime.html) or [MATLAB R2018a](https://www.mathworks.com/products/matlab.html)
 
   **Note:**
@@ -43,9 +43,9 @@ VHP is designed to prediction the potential host types (plant, germ, invertebrat
     pip install numpy
     pip install h5py
     pip install pandas
-    pip install tensorflow==2.0.0  #CPU version
-    pip install tensorflow-gpu==2.0.0  #GPU version
-    pip install keras==2.3.1
+    pip install tensorflow==1.4.0  #CPU version
+    pip install tensorflow-gpu==1.4.0  #GPU version
+    pip install keras==2.1.3
     
   If you are going to install a GPU version of the TensorFlow, specified NVIDIA software should be installed. See https://www.tensorflow.org/install/install_linux to know whether your machine can install TensorFlow with GPU support.  
     
