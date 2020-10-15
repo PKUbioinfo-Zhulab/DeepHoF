@@ -61,7 +61,7 @@ DeepHoF is designed to prediction the potential host types (plant, germ, inverte
   
     cd DeepHoF
     
-  All scripts are under the folder
+  All scripts are under the folder.
   
 
 ## Usage
@@ -98,4 +98,7 @@ The content in `Header` column is the same with the header of corresponding sequ
 
 
 # Contact
-Any question, please do not hesitate to contact me: qianguo@pku.edu.cn
+Any question, please do not hesitate to contact me: qianguo@pku.edu.cn.
+
+
+
