@@ -27,7 +27,7 @@ DeepHoF (using deep learning to virus-host finder) is designed to predict the po
 + [Keras 2.1.3](https://keras.io/)
 + [MATLAB R2018a](https://www.mathworks.com/products/matlab.html)
 
-  **Note:**
+  **Note:**  
 (1) DeepHoF should be run under Linux operating system.  
 (2) For compatibility, we recommend installing the tools with the similar version as described above.  
 (3) If GPU is available in your machine, we recommend installing a GPU version of the TensorFlow to speed up the program.  
